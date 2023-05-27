@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(698) YouTube</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="mainVideos.css">
+    <link rel="icon" href="https://www.youtube.com/s/desktop/13ae94d8/img/favicon.ico" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class='header'>
+        <div class="header-top">
+            <div class="header-top-left">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+
+                <img src="logo.webp" /> <span>Youtube</span>
+            </div>
+            <div class="header-top-middle">
+                <div class="header-top-middle-left">
+                    <form action="results.html" method="post"><input name="query" id="searchBox" type="search" placeholder="Search" />
+                    </form>
+                    <a>
+                        <i class="fa fa-search" aria-hidden="true" id='searchButton'></i>
+                    </a>
+
+                </div>
+                <div class="header-top-middle-right">
+                    <i class="fa fa-microphone" aria-hidden="true"></i>
+
+                </div>
+            </div>
+            <div class="header-top-right">
+                <i class="fa fa-video-camera" aria-hidden="true" style="cursor: pointer"></i>
+
+                <i class="fa fa-bell-o" aria-hidden="true" style="cursor:pointer"></i>
+                <span style="cursor:pointer">P</span>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="selected">
+                <a href="/">All </a>
+            </div>
+            <div>
+                <a href="/">Arijit singh </a>
+            </div>
+            <div>
+                <a href="/">Film </a>
+            </div>
+            <div>
+                <a href="/">Music </a>
+            </div>
+            <div>
+                <a href="/">Live </a>
+            </div>
+            <div>
+                <a href="/">Taarak mehta ka ooltah Chasmah </a>
+            </div>
+            <div>
+                <a href="/">Comedies </a>
+            </div>
+            <div>
+                <a href="/">Indian pop music </a>
+            </div>
+            <div>
+                <a href="/">Shark tank </a>
+            </div>
+            <div>
+                <a href="/">Chill out music </a>
+            </div>
+            <div>
+                <a href="/">Sony Tv </a>
+            </div>
+            <div>
+                <a href="/">Movies </a>
+            </div>
+            <div>
+                <a href="/">Coding </a>
+            </div>
+            <div>
+                <a href="/">Educational </a>
+            </div>
+            <div>
+                <a href="/">Motivation </a>
+            </div>
+            <div>
+                <a href="/">Interviews </a>
+            </div>
+            <div>
+                <a href="/">Podcasts </a>
+            </div>
+        </div>
+    </div>
+    <div class='sidebar-left'>
+        <div class="sidebar-first">
+            <ul>
+                <li style="background: rgba(97, 97, 97, 0.9);">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span>Home</span>
+                </li>
+                <li>
+                    <i class="fa fa-compass" aria-hidden="true"></i>
+                    <span>Explore</span>
+                </li>
+                <li>
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    <span>Subscriptions</span>
+                </li>
+                <hr style="color: rgba(0,0,0,0.3);">
+                <li>
+                    <i class="fa fa-play" aria-hidden="true"></i>
+                    <span>Library</span>
+                </li>
+                <li>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <span>History</span>
+                </li>
+                <li>
+                    <i class="fa fa-play" aria-hidden="true"></i>
+                    <span>Your videos</span>
+                </li>
+                <li>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <span>Watch later</span>
+                </li>
+                <li>
+                    <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                    <span>Liked videos</span>
+                </li>
+                <li>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <span>Show more</span>
+                </li>
+            </ul>
+            <hr style="color: rgba(0,0,0,0.3);">
+        </div>
+        <div class="sidebar-second">
+            <div>MORE FROM YOUTUBE</div>
+            <ul>
+                <li>
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    <span>Youtube premium </span>
+                </li>
+                <li>
+                    <i class="fa fa-film" aria-hidden="true"></i>
+                    <span>Movies</span>
+                </li>
+                <li>
+                    <i class="fa fa-gamepad" aria-hidden="true"></i>
+                    <span>Gaming</span>
+                </li>
+                <li>
+                    <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                    <span>Live</span>
+                </li>
+                <li>
+                    <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                    <span>Learning</span>
+                </li>
+                <hr style="color: rgba(0,0,0,0.3);">
+                <li>
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+                    <span>Settings</span>
+                </li>
+                <li>
+                    <i class="fa fa-flag-o" aria-hidden="true"></i>
+                    <span>Report history</span>
+                </li>
+                <li>
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    <span>Help</span>
+                </li>
+                <li>
+                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                    <span>Send feedback</span>
+                </li>
+            </ul>
+        </div>
+        <hr style="color: rgba(0,0,0,0.3);">
+        <div class="sidebar-third">
+            <div class="sidebar-third-row my-4">
+                <a href="/">About</a>
+                <a href="/">Press</a>
+                <a href="/">Copyright</a>
+            </div>
+            <div class="sidebar-third-row">
+                <a href="/">Contact us</a>
+                <a href="/">Creators</a>
+            </div>
+            <div class="sidebar-third-row">
+                <a href="/">Advertise</a>
+                <a href="/">Developers</a>
+            </div>
+            <div class="sidebar-third-row my-4">
+                <a href="/">Terms</a>
+                <a href="/">Privacy</a>
+                <a href="/">Policy and safety</a>
+            </div>
+            <div class="sidebar-third-row">
+                <a href="/">How youtube works</a>
+            </div>
+            <div class="sidebar-third-row">
+                <a href="/">New features</a>
+            </div>
+        </div>
+    </div>
+    <div id='videocontainer'>
+
+
+        <!-- <div class="video">
+            <img src="./img1.png" alt="" />
+            <div class="video-second">
+                <img src="./logo1.jpg" alt="" />
+                <div class="channelinfo">
+                    <div class="videotitle">
+                        New Mac studio and Apple event reactions
+                    </div>
+                    <div class="channelname">
+                        Marques Brownlee <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    </div>
+                    <div class="views">
+                        1M views • 9 hours ago
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <script>
+        function view(views) {
+            let newViewK = Math.round((views / 1000) * 10) / 10;
+            let newViewM = Math.round((views / 1000000) * 10) / 10;
+            if (views < 1000) {
+                return views;
+            }
+            else if (newViewK < 1000) {
+                return newViewK + "K";
+            }
+            else {
+                return newViewM + "M"
+            }
+        }
+        function calculateUploadTime(publishedTime) {
+
+            const year = Number(publishedTime.slice(0, 4));
+            const month = Number(publishedTime.slice(5, 7));
+            const date = Number(publishedTime.slice(8, 10));
+
+            const dateObj = new Date();
+            const currentMonth = dateObj.getUTCMonth() + 1;
+            const currentDay = dateObj.getUTCDate();
+            const currentYear = dateObj.getUTCFullYear();
+
+            const timeDiff = dateObj.getTime() - new Date(year, month - 1, date).getTime(); // Time difference in milliseconds
+
+            // Convert milliseconds to different units
+            const seconds = Math.floor(timeDiff / 1000);
+            const minutes = Math.floor(seconds / 60);
+            const hours = Math.floor(minutes / 60);
+            const days = Math.floor(hours / 24);
+            const weeks = Math.floor(days / 7);
+            const months = Math.floor(days / 30);
+            const years = Math.floor(days / 365);
+
+            let result;
+
+            if (years > 0) {
+                result = years === 1 ? "1 year ago" : `${years} years ago`;
+            } else if (months > 0) {
+                result = months === 1 ? "1 month ago" : `${months} months ago`;
+            } else if (weeks > 0) {
+                result = weeks === 1 ? "1 week ago" : `${weeks} weeks ago`;
+            } else if (days > 0) {
+                result = days === 1 ? "1 day ago" : `${days} days ago`;
+            } else if (hours > 0) {
+                result = hours === 1 ? "1 hour ago" : `${hours} hours ago`;
+            } else if (minutes > 0) {
+                result = minutes === 1 ? "1 minute ago" : `${minutes} minutes ago`;
+            } else {
+                result = "Just now";
+            }
+
+            return result;
+
+
+
+        }
+     
+        const searchQuery = "technology";
+        const apiKey = "AIzaSyDT_SXPaTX81BltwGgfEqe-EnQ2e59eoLU"
+        const apiUrl = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&part=snippet&type=video&q=${searchQuery}&maxResults=50&videoDuration=long`;
+
+        fetch(apiUrl)
+            .then((result) => {
+                return result.json();
+            })
+            .then((data) => {
+                console.log(data);
+                let videos = data.items;
+
+                // Retrieve channel information and video statistics for all videos
+                let videoIds = videos.map((video) => video.id.videoId).join(',');
+                const videoUrl = `https://www.googleapis.com/youtube/v3/videos?part=snippet%2Cstatistics&id=${videoIds}&key=${apiKey}`;
+
+                fetch(videoUrl)
+                    .then((videoResult) => {
+                        return videoResult.json();
+                    })
+                    .then((videoData) => {
+                        let videoStats = videoData.items;
+
+                        for (let i = 0; i < videos.length; i++) {
+                            let video = videos[i];
+                            let videoStat = videoStats[i];
+
+                            let videoTitle = video.snippet.title;
+                            let videoThumbnail = video.snippet.thumbnails.high.url;
+                            let channelId = video.snippet.channelId;
+                            let videoPublished = video.snippet.publishedAt;
+                            let timedif = calculateUploadTime(videoPublished);
+                            // let channel = channels.find((c) => c.id === channelId);
+                            //   let channelLogo = channel.snippet.thumbnails.default.url;
+                            let channelLogo = video.snippet.thumbnails.default.url;
+                            let channelTitle = video.snippet.channelTitle;
+                            let viewCount = view(videoStat.statistics.viewCount);
+
+                            let videoLink = `https://www.youtube.com/watch?v=${video.id.videoId}`;
+
+                            let videoC = document.getElementById('videocontainer');
+                            let div1 = document.createElement('div');
+                            div1.className = 'video';
+                            div1.innerHTML = `
+            
+              <img id='thumbnail' src="${videoThumbnail}" alt="" />
+              <div class="video-second">
+                <img src="${channelLogo}" alt="" />
+                <div class="channelinfo">
+                  <div class="videotitle">
+                    <a href="${videoLink}" target="_blank">
+                    ${videoTitle}
+                    </a>
+                  </div>
+                  <div class="channelname">
+                    ${channelTitle} <i class="fa fa-check-circle" aria-hidden="true"></i>
+                  </div>
+                  <div class="views">
+                    ${viewCount} views • ${timedif}
+                  </div>
+                </div>
+              </div>
+          `;
+                            videoC.appendChild(div1);
+                        }
+                    });
+            });
+
+
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+#search
+{
+    position: relative;
+    width: calc(100%-250px);
+    background: #212121;
+    margin-left: 250px;
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.video-row
+{
+    /* position: relative; */
+    display: flex;
+    width: 80%;
+    margin: 20px 0;
+}
+.thumbnail
+{
+    position: relative;
+    border-radius: 20px;
+    /* width: 90%; */
+}
+.video-details
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.video-details-top
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.video-title
+{
+    position: relative;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+.video-analytics
+{
+    position: relative;
+    color: rgb(171, 171, 171);
+    font-weight: 100;
+    margin-top: 9px;
+}
+.video-details-middle
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;  
+    margin: 10px 0; 
+}
+.logo
+{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    border-radius: 50%;
+}
+.channel-name
+{
+    position: relative;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.video-details-bottom
+{
+    position: relative;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin: 10px 0;
+}
